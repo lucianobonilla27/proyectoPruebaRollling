@@ -3,9 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Prueba rolling</title>
 </head>
 <body>
     
+    <header>
+        <h1>Lista de Productos</h1>
+    </header>
+
+    <main>
+        <section id="listaProductos">
+            <h2>Lista de Productos</h2>
+            <ul id="lista">
+                
+            </ul>
+        </section>
+
+        <section id="agregarProductos">
+            <h2>Agregar Nuevo Producto</h2>
+            <form id="formProductos">
+                <label for="nombreProducto">Nombre del Producto:</label>
+                <input type="text" id="nombreProducto" required>
+
+                <label for="productPrice">Precio:</label>
+                <input type="number" id="precioProducto" required>
+
+                <button type="button">Agregar Producto</button>
+            </form>
+        </section>
+    </main>
 </body>
 </html>
