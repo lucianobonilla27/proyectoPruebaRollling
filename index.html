@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Prueba rolling</title>
 </head>
+
 <body>
-    
+
     <header>
         <h1>Lista de Productos</h1>
     </header>
@@ -16,7 +18,7 @@
         <section id="listaProductos">
             <h2>Lista de Productos</h2>
             <ul id="lista">
-                
+
             </ul>
         </section>
 
@@ -32,9 +34,15 @@
                 <label for="lblDescripcion">Descripcion:</label>
                 <input type="text" id="lblDescripcion" required>
 
-                <button type="button">Agregar Producto</button>
+                <label for="lblId">Id:</label>
+                <input type="text" id="lblId" required>
+
+                <button type="button" id="botonProducto">Agregar Producto</button>
             </form>
         </section>
+
+        <script src="js/tarea.js"></script>
     </main>
 </body>
+
 </html>
